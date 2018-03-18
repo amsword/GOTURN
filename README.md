@@ -75,7 +75,8 @@ set(Caffe_DEFINITIONS -DCPU_ONLY)
 ```
 
 ### Compile
-
+Modify the path of Caffe in cmake/Modules/FindCaffe.cmake
+Modify the trax lib in CMakeList.txt
 From the main directory, type:
 ```
 mkdir build
